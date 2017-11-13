@@ -2,7 +2,7 @@ import unittest
 from .odd_even_numbers import odd_even, sum_powers
 
 
-class TestOddNumbers(unittest.TestCase):
+class TestOddEvenNumbers(unittest.TestCase):
 
     def test_odd_even_numbers_one(self):
         test_passed = False

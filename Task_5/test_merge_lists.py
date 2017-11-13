@@ -2,7 +2,7 @@ import unittest
 from .merge_lists import merge
 
 
-class TestOddNumbers(unittest.TestCase):
+class TestMergeList(unittest.TestCase):
 
     def test_merge_lists_one(self):
         expected_result = [1, 2, 3, 4, 5, 6]

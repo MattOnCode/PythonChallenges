@@ -2,7 +2,7 @@ import unittest
 from .squeeze_numbers import squeeze
 
 
-class TestOddNumbers(unittest.TestCase):
+class TestSqueezeNumbers(unittest.TestCase):
 
     def test_squeeze_numbers_one(self):
         expected_result1 = [1, 2, 3, 4, 5, 6]
