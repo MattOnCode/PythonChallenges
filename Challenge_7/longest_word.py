@@ -1,9 +1,3 @@
-"""
-Challenge:
-Create a function longest(words) to find the longest word in a list of strings.
-"""
-
-
 def longest(words):
     """
     Finds the longest word in a list of words.

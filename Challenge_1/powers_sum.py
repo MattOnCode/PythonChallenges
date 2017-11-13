@@ -1,10 +1,3 @@
-"""
-Challenge:
-Create function sumpowers(l, p=1) that takes a list of numbers and returns the sum of each
-number in the list raised to the pth power.
-"""
-
-
 def sum_powers(l, p=1):
     """
     Return the sum of the numbers in L raised to the p-th power.

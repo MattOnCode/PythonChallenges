@@ -1,10 +1,3 @@
-"""
-Challenge:
-Create function squeeze(numbers_list) that takes a list and returns the list where all
-adjacent elements that are the same have been reduced to a single element.
-"""
-
-
 def squeeze(numbers_list):
     """
     Takes a list of values, and removes duplicate numbers. Therefore, it will return a

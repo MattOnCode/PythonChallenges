@@ -1,10 +1,3 @@
-"""
-Challenge:
-Create function merge(list_one, list_two) that takes two lists whose elements are sorted
-in ascending order, and returns a single merged list of all the elements.
-"""
-
-
 def merge(list_one, list_two):
     """
     Takes two sorted lists and merges them in order to return a list that
