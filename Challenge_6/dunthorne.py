@@ -1,9 +1,7 @@
 import os.path
 
 # Friendly path to file of words.
-project_path = os.path.dirname(__file__)
-word_file = os.path.join(project_path, 'words.txt')
-
+word_file = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Resources', 'words.txt'))
 
 def word_valid(word, string):
     """
