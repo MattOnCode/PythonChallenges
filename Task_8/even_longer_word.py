@@ -10,7 +10,7 @@ project_path = os.path.dirname(__file__)
 word_file = os.path.join(project_path, 'words.txt')
 
 
-def longest(words):
+def all_longest(words):
     """
     Finds the longest word in a list of words.
     :param words: A list of words (strings).
@@ -36,4 +36,4 @@ words = []
 for line in open(word_file, 'r').readlines():
     words.append(line.strip().lower())
 
-print(longest(words))
+print(all_longest(words))
