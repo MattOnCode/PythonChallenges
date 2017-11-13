@@ -9,4 +9,5 @@ I will be developing solutions for each challenge with four major factors in min
 3. The solution must be beautiful and easy to maintain/understand.
 4. The solution must be reusable, so it can also be easily tested.
 <br><br><br>
+
 Feel free to go through and try out each challenge for yourself and send me better solutions as issues.
