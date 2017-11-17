@@ -37,7 +37,10 @@ win_total = 0
 loss_total = 0
 profit_total = 0
 profit = 0
+trade_day = 0
 for value in trader_data_list:
+    trade_day += 1
+
     if value > 0:
         win_total += 1
     else:
@@ -47,9 +50,10 @@ for value in trader_data_list:
     profit_total += value
 
     if profit >= 4000000:
+        print("Bonus received on day {}!".format(trade_day))
         bonus_total += 1
         profit = 0
 
-
-print("Total Loss: {}\nTotal Win: {}\nTotal Bonus: {}".format(loss_total, win_total, bonus_total))
+print("\nStatistics:")
+print("Total Stakes Lost: {}\nTotal Stakes Won: {}\nTotal Bonuses Given: {}".format(loss_total, win_total, bonus_total))
 print("Total Profit: £{}".format(round(profit_total, 2)))
