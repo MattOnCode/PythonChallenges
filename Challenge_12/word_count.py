@@ -17,6 +17,7 @@ def word_count(L):
     return sum_words, sum_letters
 
 
+# Tests the function.
 letters, words = word_count(rhyme)
 print("Amount of words in list: {}".format(words))
 print("Amount of letters in list: {}".format(letters))
