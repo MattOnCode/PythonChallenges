@@ -23,7 +23,7 @@ def calculate_average(number_list):
     numbers_sum = 0
     for number in number_list:
         numbers_sum += number
-    return numbers_sum / len(numbers)
+    return numbers_sum / len(number_list)
 
 
 while True:
