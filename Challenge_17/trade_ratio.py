@@ -37,7 +37,7 @@ def calculate_bonus(trader_data):
     for trade in trader_data:
         profit += trade
         day += 1
-        if profit >= 4000000:
+        if profit >= 400000:
             bonus_days.append(day)
             profit = 0
     return bonus_days
